@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="L5bzUw" name="Ex-Dayo" projectType="audioplug" useAppConfig="1"
+              addUsingNamespaceToJuceHeader="1" jucerFormatVersion="1">
+  <MAINGROUP id="tcv8sx" name="Ex-Dayo">
+    <GROUP id="{4CA302A3-86A1-6B6A-A727-AA3D414BC04A}" name="Source">
+      <GROUP id="{6163389F-13DB-CAAB-A889-4D0F99283D05}" name="SAM_src">
+        <FILE id="I4Thpb" name="debug.c" compile="1" resource="0" file="Source/SAM_src/debug.c"/>
+        <FILE id="twh0YB" name="debug.h" compile="0" resource="0" file="Source/SAM_src/debug.h"/>
+        <FILE id="BGreJ9" name="main.c" compile="1" resource="0" file="Source/SAM_src/main.c"/>
+        <FILE id="wwV1JA" name="reciter.c" compile="1" resource="0" file="Source/SAM_src/reciter.c"/>
+        <FILE id="MTdehd" name="reciter.h" compile="0" resource="0" file="Source/SAM_src/reciter.h"/>
+        <FILE id="o32Cjm" name="ReciterTabs.h" compile="0" resource="0" file="Source/SAM_src/ReciterTabs.h"/>
+        <FILE id="nqfcjx" name="render.c" compile="1" resource="0" file="Source/SAM_src/render.c"/>
+        <FILE id="dhyBGh" name="render.h" compile="0" resource="0" file="Source/SAM_src/render.h"/>
+        <FILE id="rJPpG0" name="RenderTabs.h" compile="0" resource="0" file="Source/SAM_src/RenderTabs.h"/>
+        <FILE id="zYsOB1" name="sam.c" compile="1" resource="0" file="Source/SAM_src/sam.c"/>
+        <FILE id="cXwOh3" name="sam.h" compile="0" resource="0" file="Source/SAM_src/sam.h"/>
+        <FILE id="r3Dv7R" name="SamTabs.h" compile="0" resource="0" file="Source/SAM_src/SamTabs.h"/>
+      </GROUP>
+      <FILE id="xRLniL" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="tgAMK9" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="E1Ttz5" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="xT15Kw" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Ex-Dayo"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Ex-Dayo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Documents/Stuff 4 windows/Music goes brrr/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
